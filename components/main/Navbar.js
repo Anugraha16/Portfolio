@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-2 md:px-4">
       
         <a href="#about-me" className='h-auto w-auto flex flex-row items-center'>
-          <Image src='/Designer1png.png' priority alt="logo" width={50} height={60} className='cursor-pointer hover:animate-slowspin'/>
+          <Image src='/Designer1png.png' priority alt="logo" width={50} height={55} className='cursor-pointer hover:animate-slowspin w-full h-auto'/>
           <span className='font-bold ml-2 hidden md:block text-gray-300'>ANUGRAHA</span>
         </a>
 
@@ -32,7 +32,7 @@ const Navbar = () => {
           {
             Socials.map((social) => (
               <a href={social.href} key={social.name} target="_blank" rel="noopener noreferrer">
-              <Image src={social.src} alt={social.name} width={24} height={24} />
+              <Image src={social.src} alt={social.name}  priority width={24} height={24} className="w-7 h-7 max-w-md"/>
               </a>
             ))
           }

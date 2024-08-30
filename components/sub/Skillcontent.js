@@ -19,7 +19,8 @@ const SkillContent = ({ src, width, height, index }) => {
 
     return (
         <motion.div ref={ref} initial="hidden" variants={imageVariants} animate={inView ?"visible":"hidden"} custom={index} transition={{delay:index*animationDelay}}>
-            <Image src={src} width={width} height={height} alt='skill image'/>
+            <Image src={src} width={width} height={height} priority
+  className="w-[80%] sm:w-[70%] md:w-[60%] lg:w-auto h-auto" alt='skill image'/>
         </motion.div>
 
     );
