@@ -83,3 +83,24 @@
     0 0 3px rgba(255, 255, 255, 0.8); 
 }
 
+
+.project-carousel {
+  display: flex;
+  gap: 2rem;
+  overflow: hidden;
+}
+
+
+@keyframes launch {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-300px); /* Adjust the distance of launch */
+    opacity: 0;
+  }
+}
+
+.animate-launch {
+  animation: launch 1.5s forwards; /* Duration for the rocket animation */
+}

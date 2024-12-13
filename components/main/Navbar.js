@@ -8,11 +8,11 @@ const Navbar = () => {
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-2 md:px-4">
       
         <a href="#about-me" className='h-auto w-auto flex flex-row items-center'>
-          <Image src='/Designer1png.png' priority alt="logo" width={50} height={55} className='cursor-pointer hover:animate-slowspin w-full h-auto'/>
-          <span className='font-bold ml-2 hidden md:block text-gray-300'>ANUGRAHA</span>
+          <Image src='/MyLogo1.png' priority alt="logo" width={50} height={55} className='cursor-pointer hover:animate-slowspin w-full h-auto'/>
+          <span className='font-bold ml-2 hidden md:block text-gray-300'></span>
         </a>
 
-        
+  
         <div className="hidden md:flex flex-row items-center justify-between w-[500px] h-full">
           <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] px-4 py-2 rounded-full text-gray-300">
             <a href="#about-me" className="cursor-pointer glow-text">
