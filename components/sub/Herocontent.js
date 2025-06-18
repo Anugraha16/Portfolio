@@ -27,7 +27,7 @@ const Herocontenet = () => {
         {/* Button with rocket icon aligned with text */}
         <div className="flex items-center justify-start mt-4 gap-3">
           <a
-            href="https://drive.google.com/file/d/1kfvxEci5-LFjK7ClZZWtvHRtjzTd6wij/view?usp=sharing"
+            href="https://drive.google.com/file/d/1qGqRRbPrDw0v7VWq9XrZ3NVLkt0EwTa6/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center text-white bg-transparent hover:bg-transparent hover:text-purple-500 py-2 px-4 rounded-full border-none transition-all duration-300"
